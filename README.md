@@ -17,10 +17,15 @@ cd board-app
 .env.example 파일을 참고하여 프로젝트 루트에 .env 파일을 생성하고 다음 내용을 채워주세요.
 
 MONGO_URI=mongodb://mongo:27017/board-app
+
 JWT_SECRET=본인의_비밀키
+
 GOOGLE_CLIENT_ID=본인의_구글_클라이언트_ID
+
 GOOGLE_CLIENT_SECRET=본인의_구글_클라이언트_SECRET
+
 CLIENT_URL=http://localhost:3000
+
 GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET은 Google Cloud Console에서 발급받을 수 있습니다.
 
 ## 3. Docker Compose로 프로젝트 실행
